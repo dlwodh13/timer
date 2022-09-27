@@ -1,7 +1,7 @@
 let timeSet = process.argv.slice(2);
 
 const timer = (timeList) => {
-  console.log(timeList);
+  console.log(`Inputed Time: [${timeList}]`);
   timeList.forEach(time => {
   	if(!isNaN(time) && time > 0) {
 	  setTimeout(() => {
